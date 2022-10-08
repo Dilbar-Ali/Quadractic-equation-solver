@@ -15,14 +15,20 @@
     
 
 <script>
-function solve(a,b,c){
+function Quadraticequ(a,b,c){
     let result1 = (((-1*b) + Math.sqrt(Math.pow(b,2)) - (4*a*c))/(2*a));
     let result2 = (((-1*b) - Math.sqrt(Math.pow(b,2)) - (4*a*c))/(2*a));
     
-    return result + "<br>" + result2;
+    return result1 + "<br>" + result2;
 }
 
-document.write( solve(1,1,-1) );
+let a=prompt("Please enter Value of X  ...😇👇");
+let b=prompt("Please enter Value of Y  ...💞😇👇");
+let c=prompt("Please enter Value of Z  ...😇👇");
+
+let Finalresult= Quadraticequ(a,b,c) ;
+console.log(Finalresult);
+confirm("Your Final result is  💟 <br>    " +  Finalresult);
     
     </script>
 </body>
